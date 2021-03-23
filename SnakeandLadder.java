@@ -35,7 +35,17 @@ public class SnakeandLadder
 										Player1=STARTPOSITION;
 								}
 
+								if(Player1>100)
+								{
+										Player1=Player1-rollDice;
+								}
+								if(Player1==100)
+								{
+										break;
+								}
 			}
-			System.out.println("Congratulations you have reached 100 and won the game");
+
+			System.out.println("Position of Player is "+Player1);
+			System.out.println("Congratulations Player has reached 100 position and won the game");
 	}
 }
