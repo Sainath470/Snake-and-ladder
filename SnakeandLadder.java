@@ -1,10 +1,15 @@
 //"Welcome to the snake and ladder game"
+import java.util.*;
 public class SnakeandLadder
 {
-	pubic static void main(String args[])
+	 public static void main(String args[])
 	{
 		int STARTPOSITION=0;
-		int player1=STARTPOINT;
+		int player1=STARTPOSITION;
+
+		Random roll = new Random();
+		int rollDice= roll.nextInt(6)+1;
+		System.out.println(rollDice);
 
 	}
 
