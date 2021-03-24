@@ -16,7 +16,7 @@ public class SnakeandLadder
 				Random roll1 = new Random();
 				int rollDice1= roll1.nextInt(6)+1;
 				rollDiceCount1++;
-					
+
 					//rolling for player2
 					 Random roll2 = new Random();
             int rollDice2= roll2.nextInt(6)+1;
@@ -31,7 +31,7 @@ public class SnakeandLadder
 						{
 								case 0: 	Player1=Player1;
 											break;
-											
+
 												//Ladder
 								case 1:  Player1=Player1+rollDice1;
 											 Random rollAgain1=new Random();
